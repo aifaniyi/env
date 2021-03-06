@@ -1,4 +1,4 @@
-package loader
+package env
 
 import (
 	"os"
@@ -127,7 +127,7 @@ func TestLoadArray(t *testing.T) {
 
 	result = LoadArray(env, ",", []string{"default", "value"})
 	if result[1] != el1 {
-		print(t, "Failed to load correct array environment variable for el1\n", el1, result[1])
+		print(t, "Failed to load correct array environment variable for el1\n", el1, result[1env])
 	}
 
 }
