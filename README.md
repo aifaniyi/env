@@ -8,8 +8,15 @@ go get github.com/aifaniyi/env
 ```
 
 ## Usage
+
+Export environment variables in your terminal
+
 ```bash
+# linux, macos
 $ export INT_ENV_VAR=1000
+
+# windows
+$ set INT_ENV_VAR=1000
 ```
 
 ```golang
