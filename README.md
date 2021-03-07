@@ -31,3 +31,7 @@ func main() {
     fmt.Println(loadedInt) // output: 1000
 }
 ```
+
+## Documentation
+
+The package documentations available at [pkg.go.dev](https://pkg.go.dev/github.com/aifaniyi/env).

@@ -1,4 +1,4 @@
-// Package loader provides primitives for fetching environement variables
+// Package env provides primitives for fetching environement variables
 // (or return a default value) as one of the common go primitive types i.e int, string
 package env
 
